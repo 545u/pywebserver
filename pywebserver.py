@@ -7,7 +7,8 @@ print("#     Port: 80      #")
 print("#     By: 545u      #")
 print("#####################")
 
-PORT = 80
+print("Port:")
+PORT = input()
 Handler = http.server.SimpleHTTPRequestHandler
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
