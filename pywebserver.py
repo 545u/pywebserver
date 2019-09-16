@@ -1,7 +1,11 @@
 import http.server
 import socketserver
 
-print("Simple python webserver running on port 80 by: 545u")
+print("#####################")
+print("#    pywebserver    #")
+print("# Default port: 80  #")
+print("#      By: 545u     #")
+print("#####################")
 
 PORT = 80
 Handler = http.server.SimpleHTTPRequestHandler
