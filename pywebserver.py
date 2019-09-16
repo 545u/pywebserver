@@ -3,7 +3,6 @@ import socketserver
 
 print("#####################")
 print("#    pywebserver    #")
-print("#     Port: 80      #")
 print("#     By: 545u      #")
 print("#####################")
 
