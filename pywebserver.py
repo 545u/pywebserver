@@ -6,7 +6,7 @@ print("#    pywebserver    #")
 print("#     By: 545u      #")
 print("#####################")
 
-PORT = input("Port: "):
+PORT = 80
 Handler = http.server.SimpleHTTPRequestHandler
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
