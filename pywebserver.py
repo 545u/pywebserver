@@ -3,10 +3,11 @@ import socketserver
 
 print("#####################")
 print("#    pywebserver    #")
-print("#     By: 545u      #")
+print("#    Port: 8080     #")
+print("#    By: 545u       #")
 print("#####################")
 
-PORT = 80
+PORT = 8080
 Handler = http.server.SimpleHTTPRequestHandler
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
